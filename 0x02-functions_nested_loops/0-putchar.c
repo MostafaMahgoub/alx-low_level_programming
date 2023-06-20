@@ -1,6 +1,6 @@
 #include <stdio.h>
-/*
- * Desc: put putchar with newline
+/**
+ *  Desc: put putchar with newline
  */
 int main(void)
 {
@@ -11,5 +11,6 @@ int main(void)
 	{
 		putchar(c[i]);
 	}
-	return 0;
+
+	return (0);
 }
