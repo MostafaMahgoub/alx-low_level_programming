@@ -1,6 +1,7 @@
 #include <stdio.h>
 /**
- *  Desc: put putchar with newline
+ * main - prints the string "putchar" from a character array.
+ * Return: 0 on success.
  */
 int main(void)
 {
