@@ -1,21 +1,25 @@
 #include <stdio.h>
 /**
- * print_sign - returns 1 if n is +, - if n < 0 0 otherwise
- * @n: integer to be tested
- * Return: 1, -1 or 0
+ * print_sign - prints the sign of a number
+ * @n: the number to check
+ *
+ * Return: 1 if n is positive, 0 if n is zero, -1 if n is negative
  */
-void print_sign(int n)
+int print_sign(int n)
 {
-	if (n > 0)
-	{
-		printf("+1\n");
-	}
-	else if (n == 0)
-	{
-		printf("%d0\n", 0);
-	}
-	else
-	{
-		printf("%d\n", -1);
-	}
+    if (n > 0)
+    {
+        _putchar('+');
+        return (1);
+    }
+    else if (n == 0)
+    {
+        _putchar('0');
+        return (0);
+    }
+    else
+    {
+        _putchar('-');
+        return (-1);
+    }
 }
