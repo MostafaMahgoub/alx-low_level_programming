@@ -8,11 +8,11 @@ void print_sign(int n)
 {
 	if (n > 0)
 	{
-		printf("+%d\n", 1);
+		printf("+%d", 1);
 	}
 	else if (n == 0)
 	{
-		printf("%d\n", 0);
+		printf("%d0\n", 0);
 	}
 	else
 	{
