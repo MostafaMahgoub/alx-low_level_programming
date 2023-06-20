@@ -8,7 +8,7 @@ void print_sign(int n)
 {
 	if (n > 0)
 	{
-		printf("+1");
+		putchar("+1");
 	}
 	else if (n == 0)
 	{
