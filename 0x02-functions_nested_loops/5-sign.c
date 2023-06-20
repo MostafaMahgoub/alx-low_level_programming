@@ -12,6 +12,7 @@ int print_sign(int n)
 	{
 		putchar('+');
 		putchar('1');
+		putchar('\n');
 		return (1);
 	}
 	else if (n == 0)
