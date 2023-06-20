@@ -4,10 +4,8 @@
  * @n: integer to be tested
  * Return: 1, -1 or 0
  */
-void print_sign(void)
+void print_sign(int n)
 {
-	int n;
-
 	if (n > 0)
 	{
 		printf("+%d\n", 1);
