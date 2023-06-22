@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include "main.h"
 /**
  * more_numbers - entry point
  *
@@ -20,8 +20,8 @@ void more_numbers(void)
 			if (number > 9)
 				_putchar(tens + '0');
 
-			putchar(units + '0');
+			_putchar(units + '0');
 		}
-		putchar('\n');
+		_putchar('\n');
 	}
 }
